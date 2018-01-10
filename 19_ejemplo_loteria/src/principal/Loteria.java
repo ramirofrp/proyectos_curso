@@ -19,6 +19,8 @@ public class Loteria {
         mostrar(numeros);
     }
     public static boolean existe(int n, int total, int[] actual){
+    	//Comentario versión 3
+    	//Comprueba si el número está en el array
         boolean res=false;
         for(int i=0;i<total;i++){
             if(n==actual[i]){
