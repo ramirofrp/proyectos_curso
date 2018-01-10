@@ -31,6 +31,8 @@ public class Loteria {
         return res;
     }
     public static void ordenar(int[] datos) {
+    	//Comentario versión 4 desde casa
+    	//Ordenar el array de menor a mayor
         int aux;
         for(int i=0;i<datos.length;i++){
             for(int k=i+1;k<datos.length;k++){
