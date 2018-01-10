@@ -46,6 +46,8 @@ public class Loteria {
         }
     }
     public static void mostrar(int[] datos){
+    	//Comentarios versión 
+    	//Mostrar por pantalla la combinación por medio de un for each
         for(int n:datos){
             System.out.println(n);
         }
